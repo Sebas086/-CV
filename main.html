@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Científico de Datos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #e3f2fd, #bbdefb);
+            color: #2c3e50;
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% { background: linear-gradient(120deg, #e3f2fd, #bbdefb); }
+            50% { background: linear-gradient(120deg, #bbdefb, #e1bee7); }
+            100% { background: linear-gradient(120deg, #e1bee7, #e3f2fd); }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h1, h2, h3 {
+            color: #34495e;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .header img {
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid #34495e;
+            margin-right: 20px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .header img:hover {
+            box-shadow: 0 0 15px #34495e;
+        }
+
+        .header-info {
+            flex: 1;
+        }
+
+        .section {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #bdc3c7;
+            border-radius: 10px;
+            background-color: #f0f4c3;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background: #d7ffd9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .skills li:hover {
+            background-color: #b9f6ca;
+        }
+
+        .delineado {
+            border: 2px solid #34495e;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://eva.puce.edu.ec/repotenciacion-2024-02/pluginfile.php/74622/user/icon/puce/f1?rev=115741" alt="Foto de perfil">
+            <div class="header-info">
+                <h1>Sebastian Haro</h1>
+                <p><strong>Email:</strong> saharob@puce.edu.ec | <strong>Teléfono:</strong> 096 353 7484</p>
+            </div>
+        </div>
+
+        <div class="section delineado">
+            <h2 class="section-title">Resumen</h2>
+            <p>
+                Estudiante de Ingeniería en Ciencia de Datos en la Pontificia Universidad Católica del Ecuador (PUCE). 
+                Apasionado por el análisis de datos, la visualización dinámica y la solución de problemas complejos mediante herramientas como Python y SQL.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Educación</h2>
+            <p><strong>Ingeniería en Ciencia de Datos</strong> - Pontificia Universidad Católica del Ecuador (PUCE) (2024 - Actualidad)</p>
+        </div>
+
+        <div class="section delineado">
+            <h2 class="section-title">Habilidades</h2>
+            <ul class="skills">
+                <li>Programación en Python (pandas, numpy, matplotlib, seaborn)</li>
+                <li>Creación de gráficos dinámicos y dashboards</li>
+                <li>SQL básico para manejo de bases de datos</li>
+                <li>Análisis estadístico descriptivo</li>
+                <li>Uso de herramientas como Power BI y Tableau</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Proyectos Académicos</h2>
+            <p><strong>Análisis Exploratorio de Datos de Ventas</strong></p>
+            <p>Implementación de un análisis exploratorio para identificar patrones de comportamiento en datos de ventas utilizando Python.</p>
+
+            <p><strong>Dashboard de Seguimiento Académico</strong></p>
+            <p>Diseño y creación de un dashboard interactivo para analizar el rendimiento académico de estudiantes utilizando Tableau.</p>
+        </div>
+
+        <div class="section delineado">
+            <h2 class="section-title">Mentalidad y Cultura de Datos</h2>
+            <p>
+                Adopto una mentalidad orientada al aprendizaje continuo y la mejora basada en datos. Me esfuerzo por fomentar 
+                una cultura de datos donde las decisiones sean informadas, transparentes y respaldadas por análisis sólidos.
+                Creo firmemente en el valor de la colaboración interdisciplinaria para maximizar el impacto de los datos en cualquier organización.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
